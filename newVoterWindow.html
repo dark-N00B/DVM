@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Create New Voter Account</title>
+    <!--Materialized CSS-->
+    <link href="materialize.min.css" rel="stylesheet">
+    <!--Meterial ICONS-->
+    <link href="MaterializeIcons.css" rel="stylesheet">
+</head>
+<body>
+    <!--<div style="padding:20px">-->
+    <nav>
+        <div class="nav-wrapper">
+            <a class="brand-logo center">Enter New Voter Details</a>
+        </div>
+    </nav>
+    <br>
+    <div class="row">
+    <form class="col s12">
+        <div class="row">
+            <div class="input-field col s6">
+                First Name: <input type="text" id="first_name" autofocus required>
+                <!--<label for="first_name">First Name</label>-->
+            </div>
+            <div class="input-field col s6">
+                Last Name: <input type="text" id="last_name" required>
+                <!--<label for="last_name">Last Name</label>-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s6">
+                Father's Full Name: <input type="text" required>
+            </div>
+            <div class="input-field col s6">
+                Mother's Full Name: <input type="text" required>
+            </div>
+        </div>
+        <div>
+            Email Address: <input type="email" placeholder="Enter Email" name="email" class="validate" required>
+        </div>
+        <br/>
+        <div>
+            Phone Number: <input type="text" size="20" value="" placeholder="Enter Phone Number" name="phone number" pattern="(?=.*\d).{10,10}" title="Must contain only number and 10 characters" required>
+        </div>
+        <br/>
+        <div>
+            Date of Birth: <input type="date" size="20" required>
+            <!--<input type="text" class="datepicker" required>-->
+        </div>
+        <br/>
+        <div>
+            Parmanent Address: <input type="text" required>
+        </div><br/>
+        <div>
+            <!-- Password field -->
+            Password: <input type="password" placeholder="Enter Password" value="" id="myPassword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>           
+            <!-- An element to toggle between password visibility -->
+            <input type="checkbox" onclick="passFunction()">Show Password
+            <script>
+                function passFunction() {
+                    var x = document.getElementById("myPassword");
+                    if (x.type === "password") {
+                      x.type = "text";
+                    } else {
+                      x.type = "password";
+                    }
+                  }
+            </script>
+        </div><br/>
+        <!--<div>
+            <label>Photocopy</label><br/>
+            <input type="image" value="Passport Photo" name="dp" required>
+        </div>-->
+        <br/>
+
+        <p>
+            <label>
+                <input id="indeterminate-checkbox" type="checkbox" />
+                <span>I hereby agree all the details above are correct</span>
+            </label>
+        </p>
+        <!--<input type="checkbox" id="myCheckBox"> I hereby agree all the details above are correct
+        <script>
+        document.getElementById("myCheckBox").required = true;
+        </script>-->
+        <br>
+        <button class="btn waves-effect waves-light" type="submit" name="action">Submit Voter Details
+                <i class="material-icons right">send</i>
+        </button>
+    </form>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>
