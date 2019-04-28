@@ -14,10 +14,10 @@ app.on('ready', function(){
     const dimensions = display.workAreaSize;
     //Create New Window
     mainWindow = new BrowserWindow({
-        width: parseInt(1200),
-        height: parseInt(720),
+        width: parseInt(800),
+        height: parseInt(600),
         minWidth: parseInt(800),
-        minHeight: parseInt(490),
+        minHeight: parseInt(600),
         //maxWidth: dimensions.width,
         //maxHeight: dimensions.height
     });
@@ -87,6 +87,17 @@ const mainMenuTemplate = [
                 accelerator: process.platform == 'darwin' ? 'Command+Q' : 'Ctrl+Q',
                 click(){
                     app.quit();
+                }
+            }
+        ]
+    },
+    {
+        label: 'Mode',
+        submenu: [
+            {
+                label: 'Change User Mode',
+                click(){
+                    mainWindow.loadURL(`file://${__dirname}/userMode.html`)
                 }
             }
         ]
