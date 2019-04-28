@@ -1,12 +1,12 @@
 {
-  "name": "evm",
+  "name": "dvm",
   "version": "1.0.0",
-  "description": "EVM Security",
+  "description": "Digital Voting Machine",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "author": "Arnab Das",
+  "author": "dark-N00B",
   "license": "ISC",
   "dependencies": {
     "electron": "^5.0.0",
