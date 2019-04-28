@@ -23,7 +23,7 @@ app.on('ready', function(){
     });
     //Load HTML into Window
     mainWindow.loadURL(url.format({
-        pathname: path.join(__dirname, 'mainWindow.html'),
+        pathname: path.join(__dirname, 'userMode.html'),
         protocol: 'file:',
         slashes: true
     }));
