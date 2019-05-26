@@ -4,3 +4,7 @@ This project is supported by 5 students and a Teacher from LPU for the sake of C
 Add Noje JS to your PATH or add this line to Git Bash everytime you open it inside the DVM (origin) directory.
 
 <i>export PATH=$PATH:node_modules</i>
+
+
+# External Functionalities Used
+Materialize
