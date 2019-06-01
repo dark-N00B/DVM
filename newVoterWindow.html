@@ -7,7 +7,66 @@
     <!--Meterial ICONS-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
+<!--
+$('#Myform').attr('onsubmit', 'test()');
+
+function test() {
+
+  var obj = {};
+
+  obj.title =$('#title').prop('value');
+  console.log('title: '+obj.title);
+
+  obj.userID =$('#userID').prop('value');
+  console.log('userID: '+obj.website);
+
+  obj.passCode =$('#passCode').prop('value').split(',');
+  console.log('passCode: '+obj.tags);
+
+  doSomething(JSON.stringify(obj));
+
+}
+-->
 <body>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+    $("action").click(function(e){
+        var jsonData = {};
+    
+        var formData = $("#myform").serializeArray();
+    // console.log(formData);
+    
+        $.each(formData, function() {
+            if (jsonData[this.name]) {
+                if (!jsonData[this.name].push) {
+                    jsonData[this.name] = [jsonData[this.name]];
+                }
+                jsonData[this.name].push(this.value || '');
+            } else {
+                jsonData[this.name] = this.value || '';
+            }
+    
+    
+        });
+        /*console.log(jsonData);
+        $.ajax(
+        {
+            url : "action.php",
+            type: "POST",
+            data : jsonData,
+    
+        });
+        e.preventDefault(); */
+        var userdata = jsonData;
+        localStorage.setItem('myStorage', JSON.stringify(userdata));
+        //Parsing json
+        //var obj = JSON.parse(localStorage.getItem('myStorage'));
+    });
+    });
+</script>
+
     <!--<div style="padding:20px">-->
     <nav>
         <div class="nav-wrapper">
@@ -16,7 +75,7 @@
     </nav>
     <br>
     <div class="row">
-    <form class="col s12">
+    <form id="#myform" class="col s12"> <!--enctype="application/json">-->
         <div class="row">
             <div class="input-field col s6">
                 First Name: <input type="text" id="first_name" autofocus required>
