@@ -1,9 +1,3 @@
-# Digital Voting Machine
-
-This tool helps us record votes under a secured environment at a convenience of biometrics (to be implimented soon) like fingerprint.
-
-###### <i>This project is supported by 5 students and a Teacher from LPU for the sake of Capstone Project for B. Tech.</i>
-
 ## Prerequisites
 - Install Git Bash (for Windows PC).
 
@@ -28,3 +22,6 @@ npm i electron
 
 ### External Functionalities Used
 - Materialize (<b>Removal In Progress</b> -- Outdated + Vulnerabilities)
+
+
+###### <i>This project is supported by 5 students and a Teacher from LPU for the sake of Capstone Project for B. Tech.</i>
