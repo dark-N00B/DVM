@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# Digital Voting Machine
 
-You can use the [editor on GitHub](https://github.com/dark-N00B/DVM/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+This tool helps us record votes under a secured environment at a convenience of biometrics (to be implimented soon) like fingerprint.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+###### <i>This project is supported by 5 students and a Teacher from LPU for the sake of Capstone Project for B. Tech.</i>
 
-### Markdown
+## Prerequisites
+- Install Git Bash (for Windows PC).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Install NodeJS.
 
-```markdown
-Syntax highlighted code block
+- Install Electron in Git Bash.
 
-# Header 1
-## Header 2
-### Header 3
+## Setup
+- Clone this git.
 
-- Bulleted
-- List
+- Add Noje JS to your PATH.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+- Add this line to Git Bash inside the DVM (origin) directory.
+```
+export PATH=$PATH:node_modules
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- Install Electron using Git Bash inside the DVM directory 
+```
+npm i electron
+```
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dark-N00B/DVM/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### External Functionalities Used
+- Materialize (<b>Removal In Progress</b> -- Outdated + Vulnerabilities)
