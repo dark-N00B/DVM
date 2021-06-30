@@ -1,5 +1,7 @@
 # Digital Voting Machine
 
+# [Download Project](https://github.com/dark-N00B/DVM/releases)
+
 ## Prerequisites
 - Install Git Bash (for Windows PC).
 
