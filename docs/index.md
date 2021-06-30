@@ -23,7 +23,10 @@ npm i electron
 ```
 
 ### External Functionalities Used
-- Materialize (<b>Removal In Progress</b> -- Outdated + Vulnerabilities)
+- [Materialize](https://materializecss.com/) (<b>Removal In Progress</b> -- Outdated + Vulnerabilities)
 
 
+<!--![Node](https://en.wikipedia.org/wiki/Node.js#/media/File:Node.js_logo.svg)
+![Electron](https://en.wikipedia.org/wiki/Electron_(software_framework)#/media/File:Electron_Software_Framework_Logo.svg)
+-->
 ###### <i>This project is supported by 5 students and a Teacher from LPU for the sake of Capstone Project for B. Tech.</i>
