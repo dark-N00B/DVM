@@ -1,11 +1,11 @@
 # Digital Voting Machine
 
-# [Download Project](https://github.com/dark-N00B/DVM/releases)
+## Download Latest [Pre-release](https://github.com/dark-N00B/DVM/releases)
 
 ## Prerequisites
-- Install Git Bash (for Windows PC).
+- Install [Git Bash](https://git-scm.com/downloads).
 
-- Install NodeJS.
+- Install [NodeJS](https://nodejs.org/en/download/).
 
 ## Setup
 - Clone this git.
