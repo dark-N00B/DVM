@@ -7,12 +7,10 @@
 
 - Install NodeJS.
 
-- Install Electron in Git Bash.
-
 ## Setup
 - Clone this git.
 
-- Add Noje JS to your PATH.
+- Make sure Noje JS is added to your PATH.
 
 - Add this line to Git Bash inside the DVM (origin) directory.
 ```
