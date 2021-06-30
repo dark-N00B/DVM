@@ -3,7 +3,7 @@ This project is supported by 5 students and a Teacher from LPU for the sake of C
 
 ## Prerequisites
 ###### Install Git Bash (for Windows PC)
-###### Install NodeJS Modules in Git Bash
+###### Install NodeJS
 ###### Install Electron in Git Bash
 
 ## Setup
