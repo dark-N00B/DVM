@@ -26,7 +26,7 @@ npm i electron
 ```
 
 ### External Functionalities Used
-- Materialize (<b>Removal In Progress</b> -- Outdated + Vulnerabilities)
+- [Materialize](https://materializecss.com/) (<b>Removal In Progress</b> -- Outdated + Vulnerabilities)
 
 ## [Website](https://dark-n00b.github.io/DVM/)
 
