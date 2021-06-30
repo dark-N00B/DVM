@@ -2,12 +2,13 @@
 
 This tool helps us record votes under a secured environment at a convenience of biometrics (to be implimented soon) like fingerprint.
 
-###### <i>This project is supported by 5 students and a Teacher from LPU for the sake of Capstone Project for B. Tech.</i>
+
+## Download Latest [Pre-release](https://github.com/dark-N00B/DVM/releases)
 
 ## Prerequisites
-- Install Git Bash (for Windows PC).
+- Install [Git Bash](https://git-scm.com/downloads).
 
-- Install NodeJS.
+- Install [NodeJS](https://nodejs.org/en/download/).
 
 ## Setup
 - Clone this git.
@@ -28,3 +29,5 @@ npm i electron
 - Materialize (<b>Removal In Progress</b> -- Outdated + Vulnerabilities)
 
 ## [Website](https://dark-n00b.github.io/DVM/)
+
+###### <i>This project is supported by 5 students and a Teacher from LPU for the sake of Capstone Project for B. Tech.</i>
