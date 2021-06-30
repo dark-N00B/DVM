@@ -1,3 +1,5 @@
+# Digital Voting Machine
+
 ## Prerequisites
 - Install Git Bash (for Windows PC).
 
