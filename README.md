@@ -20,7 +20,7 @@ This tool helps us record votes under a secured environment at a convenience of 
 export PATH=$PATH:node_modules
 ```
 
-- Install Electron using Git Bash inside the DVM directory 
+- Install [Electron](https://www.electronjs.org/) using Git Bash inside the DVM directory 
 ```
 npm i electron
 ```
