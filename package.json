@@ -9,7 +9,7 @@
   "author": "dark-N00B",
   "license": "ISC",
   "dependencies": {
-    "electron": "^24.8.5",
+    "electron": "^39.8.5",
     "materialize-css": "^1.0.0-rc.2"
   },
   "devDependencies": {
